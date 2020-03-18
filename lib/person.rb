@@ -9,16 +9,3 @@ class Person
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
 end
-
-# @name = name
-# @birthday = birthday
-# @hair_color = hair_color
-# @eye_color = eye_color
-# @height = height 
-# @weight = weight
-# @handed = handed 
-# @complexion = complexion 
-# @t_shirt_size = t_shirt_size
-# @wrist_size = wr :glove_size, :pant_length, :pant_width
-
-# end
